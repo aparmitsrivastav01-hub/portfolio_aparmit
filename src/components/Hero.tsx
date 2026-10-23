@@ -1,6 +1,11 @@
 import { MascotPlaceholder } from './MascotPlaceholder'
+import { MobileMenu, type MobileNavigationItem } from './MobileMenu'
+import { About } from './About'
+import { Journey } from './Journey'
+import { Projects } from './Projects'
+import { Contact } from './Contact'
 
-const navigationItems = [
+const navigationItems: MobileNavigationItem[] = [
   { label: '01. Home', href: '#top' },
   { label: '02. About', href: '#about' },
   { label: '03. Journey', href: '#journey' },
@@ -35,6 +40,7 @@ export function Hero() {
             Theme
           </button>
           <a href="#contact">Let's Talk ↗</a>
+          <MobileMenu items={navigationItems} />
         </div>
       </header>
 
@@ -80,6 +86,10 @@ export function Hero() {
             SCROLL
           </a>
         </section>
+        <About />
+        <Journey />
+        <Projects />
+        <Contact />
       </main>
     </>
   )
