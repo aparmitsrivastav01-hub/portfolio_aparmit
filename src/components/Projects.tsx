@@ -90,7 +90,7 @@ export function Projects() {
   const selectedProject = projects.find((project) => project.id === selectedId) ?? projects[0]
 
   return (
-    <section id="work" className="projects-section" aria-labelledby="projects-title">
+    <section id="projects" className="projects-section" aria-labelledby="projects-title">
       <div className="projects-inner">
         <header className="projects-heading">
           <p className="projects-heading__eyebrow">04 — PROJECTS</p>

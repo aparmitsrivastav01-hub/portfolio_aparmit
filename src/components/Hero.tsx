@@ -63,7 +63,7 @@ export function Hero() {
               Exploring AI systems, full-stack development and real-world products at the intersection of technology, finance and everyday problems.
             </p>
 
-            <a className="hero-primary-cta" href="#work">
+            <a className="hero-primary-cta" href="#projects">
               <span className="hero-primary-cta-arrow" aria-hidden="true">↗</span>
               <span>EXPLORE MY WORK</span>
             </a>
