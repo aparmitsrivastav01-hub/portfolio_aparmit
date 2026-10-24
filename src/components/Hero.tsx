@@ -9,7 +9,7 @@ const navigationItems: MobileNavigationItem[] = [
   { label: '01. Home', href: '#top' },
   { label: '02. About', href: '#about' },
   { label: '03. Journey', href: '#journey' },
-  { label: '04. Achievements', href: '#achievements' },
+  { label: '04. Project', href: '#project' },
   { label: '05. Contact', href: '#contact' },
 ]
 
